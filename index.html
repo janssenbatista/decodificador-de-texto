@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/phone.css" />
+    <link rel="stylesheet" href="./assets/css/tablet.css" />
+    <link rel="stylesheet" href="./assets/css/desktop.css" />
+    <title>Decodificador</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="top-container">
+        <header>
+          <img src="./assets/images/logo-alura.svg" alt="Logo Alura" />
+        </header>
+
+        <main>
+          <textarea
+            name="message"
+            id="message-input"
+            rows="10"
+            placeholder="Digite seu texto"
+          ></textarea>
+          <section id="alert">
+            <img
+              src="./assets/images/bi_exclamation-circle-fill.png"
+              alt="alert icon"
+            />
+            <span id="alert-message"
+              >Apenas letras minúsculas e sem acento.</span
+            >
+          </section>
+          <section id="buttons">
+            <button
+              type="button"
+              class="button filled-button"
+              id="encrypt-button"
+            >
+              Criptografar
+            </button>
+            <button
+              type="button"
+              class="button outlined-button"
+              id="decrypt-button"
+            >
+              Descriptografar
+            </button>
+          </section>
+        </main>
+      </div>
+      <div id="bottom-container">
+        <footer>
+          <section id="no-message-container">
+            <img
+              src="./assets/images/no-message-icon.svg"
+              alt="no message image"
+            />
+            <span><strong>Nenhuma mensagem encontrada</strong></span>
+            <p>
+              Digite o texto que você deseja Criptografar ou Descriptografar
+            </p>
+          </section>
+          <section id="result-message-container">
+            <textarea
+              name="result-message"
+              id="result-message-input"
+              rows="10"
+            ></textarea>
+            <button
+              type="button"
+              id="copy-button"
+              class="button outlined-button"
+            >
+              Copiar
+            </button>
+          </section>
+        </footer>
+      </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

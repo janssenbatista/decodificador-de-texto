@@ -1,0 +1,43 @@
+@media screen and (min-width: 1440px) {
+  body {
+    overflow-y: hidden;
+  }
+
+  #main-container {
+    padding: 2.5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  #buttons {
+    justify-content: flex-start;
+  }
+
+  #message-input {
+    width: 42.5rem;
+  }
+
+  #top-container {
+    flex: 1;
+    margin-left: 12.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bottom-container {
+    max-width: 25rem;
+    height: 100vh;
+  }
+
+  #no-message-container {
+    box-sizing: border-box;
+    margin-top: 0;
+    justify-content: center;
+    height: 52.5rem;
+  }
+
+  #no-message-container img {
+    display: block;
+  }
+}
