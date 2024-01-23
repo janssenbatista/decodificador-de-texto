@@ -1,4 +1,4 @@
-# Encriptador de Texto
+# Decodificador de Texto
 
 Projeto desenvolvido para o programa [Oracle Next One](https://www.oracle.com/br/education/oracle-next-education/)
 
