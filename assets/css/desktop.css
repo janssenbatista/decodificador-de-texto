@@ -1,13 +1,12 @@
-@media screen and (min-width: 1440px) {
-  body {
-    overflow-y: hidden;
-  }
+@media screen and (min-width: 1024px) {
+  
 
   #main-container {
     padding: 2.5rem;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: stretch;
   }
 
   #buttons {
@@ -26,15 +25,14 @@
   }
 
   #bottom-container {
-    max-width: 25rem;
-    height: 100vh;
+    width: 25rem;
   }
 
   #no-message-container {
-    box-sizing: border-box;
-    margin-top: 0;
-    justify-content: center;
-    height: 52.5rem;
+    margin: 0;
+    justify-content: stretch;
+    align-items: center;
+    
   }
 
   #no-message-container img {
