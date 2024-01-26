@@ -6,7 +6,7 @@ Projeto desenvolvido para o programa [Oracle Next One](https://www.oracle.com/br
 
 Para executar a aplicação é necessário apenas abrir o arquivo **index.html** em seu navegador.
 
-Você pode também testar online [clicando aqui](https://encriptador-de-texto-eight.vercel.app/)
+Você pode também testar online [clicando aqui](https://janssenbatista.github.io/decodificador-de-texto/)
 
 ### 📸 Capturas de Tela
 
