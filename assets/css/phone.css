@@ -7,10 +7,17 @@
   --gray-400: #495057;
 }
 
+body {
+  display: flex;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
 #main-container {
+  display: flex;
+  flex-direction: column;
   background-color: var(--light-blue-100);
-  height: 100%;
-  overflow: hidden;
+  flex: 1;
 }
 
 header {
@@ -32,6 +39,7 @@ main textarea {
   width: 100%;
   border: none;
   color: var(--dark-blue-300);
+  flex: 1;
   background-color: transparent;
   font-family: "Inter", sans-serif;
   outline-color: transparent;

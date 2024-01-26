@@ -11,7 +11,7 @@ const resultMessageContainer = document.querySelector(
 );
 
 const showResultMessageContainer = () => {
-  resultMessageContainer.style.display = "block";
+  resultMessageContainer.style.display = "flex";
   noMessageContainer.style.display = "none";
 };
 
